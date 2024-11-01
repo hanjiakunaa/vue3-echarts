@@ -15,6 +15,14 @@ let selectData = ref([
     value: "Option1",
     label: "液化天然气",
   },
+  {
+    value: "Option2",
+    label: "液化氢气",
+  },
+  {
+    value: "Option3",
+    label: "甲醇",
+  },
 ]);
 let selectValue = ref("Option1");
 let dateValue = ref(new Date());
