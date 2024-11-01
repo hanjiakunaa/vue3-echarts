@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { RouterView } from "vue-router";
-import ScaleScreen from "@/components/scale-screen";
+// import ScaleScreen from "@/components/scale-screen";
 import Headers from "./header.vue";
 import Setting from "./setting.vue";
 import { useSettingStore } from "@/stores/index";
@@ -14,7 +14,7 @@ const wrapperStyle = {};
 </script>
 
 <template>
-  <scale-screen
+  <!-- <scale-screen
     width="1920"
     height="1080"
     :delay="500"
@@ -31,7 +31,12 @@ const wrapperStyle = {};
       <RouterView />
       <MessageContent />
     </div>
-  </scale-screen>
+  </scale-screen> -->
+  <div class="content_wrap">
+      <Headers />
+      <RouterView />
+      <MessageContent />
+    </div>
   <Setting />
 </template>
 <style lang="scss" scoped>

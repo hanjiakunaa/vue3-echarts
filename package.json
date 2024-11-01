@@ -11,6 +11,7 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "autofit.js": "^3.2.0",
     "axios": "^1.6.8",
     "countup.js": "^2.8.0",
     "dayjs": "^1.11.10",

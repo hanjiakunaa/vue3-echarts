@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      autofit.js:
+        specifier: ^3.2.0
+        version: 3.2.0
       axios:
         specifier: ^1.6.8
         version: 1.7.5
@@ -567,6 +570,9 @@ packages:
 
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
+
+  autofit.js@3.2.0:
+    resolution: {integrity: sha512-dkH26npFiYnp+Zi1aqMpHcc9qWdY5nQC/1V4suOjVopIbvAPF7n8F9+KlV9J+xKVsEEvPKuj1VPXl0rZbAQ96w==}
 
   autoprefixer@10.4.20:
     resolution: {integrity: sha512-XY25y5xSv/wEoqzDyXXME4AFfkZI0P23z6Fs3YgymDnKJkCGOnkL0iTxCa85UTqaSgfcqyf3UA6+c7wUvx/16g==}
@@ -2082,6 +2088,8 @@ snapshots:
   async-validator@4.2.5: {}
 
   asynckit@0.4.0: {}
+
+  autofit.js@3.2.0: {}
 
   autoprefixer@10.4.20(postcss@8.4.41):
     dependencies:
